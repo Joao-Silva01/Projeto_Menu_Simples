@@ -1,0 +1,29 @@
+body {
+    display: inline-block; /*Mudou de flex para inline-block*/
+    text-align: center;
+    /*justify-content: center; Comando removido*/
+    height: 490px;
+}
+    .h2{  
+        font-size: 45px;
+    }
+    .p{   
+        font-size: 25px;
+        max-width: 600px;
+    }
+    .borda-Sobremim{ /*Cria borda e a area da borda*/
+        border: 1px solid black;
+        border-radius: 50px;
+        padding: 0px 10px;
+    }
+
+    a { /*Altera o tamanho e cor*/
+        font-size: 35px;
+        color: #0000FF;
+    }
+    a:hover{/*Muda a cor ao passar o cursor*/
+        color: #00afe9;
+        cursor: pointer;
+    }
+
+    
