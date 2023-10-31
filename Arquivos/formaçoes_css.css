@@ -1,0 +1,18 @@
+.bord{ /* Adiciona uma borda */
+    border: 2px solid black;
+    padding: 0px 10px;
+}
+
+body { /* Centraliza o conteúdo*/
+display: flex;
+justify-content: center;
+text-align: center;
+}
+a {/*Altera o tamanho e cor*/  
+    font-size: 35px;
+    color: #0000FF;
+}
+a:hover{/*Muda a cor ao passar o cursor*/ 
+    color: #00afe9;
+    cursor: pointer;
+}
