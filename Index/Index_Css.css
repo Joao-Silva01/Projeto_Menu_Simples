@@ -1,0 +1,47 @@
+body { /* Centralizar os itens dentro do body*/
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 50px; /* Cria um espaço entre o menu e o titulo */
+}
+
+a, a:link{
+    font-size: 50px;
+    text-decoration: none;
+    border: 1px solid black ; /*Adiciona Borda*/
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: black;
+    }
+
+a:hover{ /* Muda a cor de fundo e do nome da opção*/
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+li{ float: left;} /*layout de lista horizontal*/
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    }
+
+.container{
+    display: grid;
+}
+ul{
+    list-style-type: none;
+    color: #575151;
+    }
+
+.menu{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content: center;/*Deixa o menu no centro*/
+    padding: 70px 70px;
+}
