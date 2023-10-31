@@ -1,0 +1,39 @@
+input[type="submit"]:hover{ /* Mudar a cor ao passar o cursor*/
+    background-color: #338be9;
+}
+
+input[type="submit"]{
+    background-color: #007bff; /* cor de fundo do botão*/ 
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+textarea, label, input{
+    display: block;
+    margin-bottom: 12px; /* Defini espaço  entre as caixas*/
+}
+textarea, input{
+    width: 350px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+}
+a{ /* Altera o tamanho, muda a cor e arredenda a borda*/
+    font-size: 25px;
+    color: #0000FF;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+a:hover{/*Muda a cor ao passar o cursor e adiciona uma borda */ 
+    color: #ffffff;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: black;
+}
